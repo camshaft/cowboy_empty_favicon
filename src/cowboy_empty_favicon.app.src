@@ -1,0 +1,11 @@
+{application, cowboy_empty_favicon, [
+  {id, "cowboy_empty_favicon"},
+  {description, "Empty favicon middleware for cowboy"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
